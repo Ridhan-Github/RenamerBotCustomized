@@ -1,12 +1,12 @@
 {
-  "name": "TELEROID RENAMER BOT",
+  "name": "TELEROID RENAMER BOT (ADVANCED)",
   "description": "",
   "keywords": [
     "Rename"
   ],
-  "success_url": "https://t.me/TeleRoid_RENAMER_BOT",
-  "website": "https://github.com/P-Phreak",
-  "repository": "https://github.com/P-Phreak/RENAMER-BOT",
+  "success_url": "https://github.com/ANUNEET-Prg/RenamerBotCustomized",
+  "website": "https://github.com/ANUNEET-Prg/RenamerBotCustomized",
+  "repository": "https://github.com/ANUNEET-Prg/RenamerBotCustomized",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -27,6 +27,7 @@
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
       "value": ""
+      "required": false
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
@@ -35,11 +36,11 @@
     },
     "UPDATE_GROUP": {
       "description": "Your Support Group USERNAME (without @)..",
-      "value": "TeleRoid14"
+      "value": ""
     },
      "UPDATE_CHANNEL": {
       "description": "For Force Subscribe. Don't Change it😎..",
-      "value": "MoviesFlixers_DL"
+      "value": "" //MoviesFlixers_DL (Force to Subscribe)
     },
     "CHUNK_SIZE": {
       "description": "chunk size that should be used with requests",
