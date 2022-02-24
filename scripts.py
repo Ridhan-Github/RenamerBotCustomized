@@ -1,5 +1,13 @@
 class Scripted(object):    
 
+START_TEXT = """👋 ʜᴇʟʟᴏ, {} ♡
+
+Tʜɪꜱ ɪꜱ ꜰɪʟᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ꜰɪʟᴇ ᴄᴏɴᴠᴇʀᴛᴇʀ
+
+Pʀᴇꜱꜱ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ...  
+
+Pᴏᴡᴇʀᴇᴅ ʙʏ : [ᴅɪsɴᴇʏ ʙᴏᴛs](https://t.me/Disney_Bots)"""
+   
 
     PROGRESS_DIS = """\n
 ╭───[**sᴛᴀᴛᴜs**]───⍟
@@ -14,53 +22,67 @@ class Scripted(object):
 ╰─────────────────⍟"""
 
     HELP_TEXT = """
-<i>𝐖𝐚𝐭𝐜𝐡 𝐕𝐢𝐝𝐞𝐨 𝐇𝐨𝐰 𝐭𝐨 𝐔𝐬𝐞 𝐌𝐞 <a href='https://youtu.be/HnXdu74o34E'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></i>\n
-<i>𝐒𝐞𝐧𝐝 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐭𝐨 𝐦𝐚𝐤𝐞 𝐢𝐭 𝐚𝐬 𝐭𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 (optional)</i>\n
-<i>𝐒𝐞𝐧𝐝 𝐦𝐞 𝐚𝐧𝐲 𝐟𝐢𝐥𝐞 (or) 𝐌𝐞𝐝𝐢𝐚 𝐟𝐫𝐨𝐦 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦</i>\n
-<i>𝐂𝐨𝐧𝐯𝐞𝐫𝐭 𝐟𝐢𝐥𝐞𝐬 𝐢𝐧𝐭𝐨 𝐯𝐢𝐝𝐞𝐨 𝐮𝐬𝐞 /convert 𝐜𝐨𝐦𝐦𝐚𝐧𝐝</i>\n
-<i>𝐑𝐞𝐩𝐥𝐲 𝐭𝐨 𝐭𝐡𝐚𝐭 𝐟𝐢𝐥𝐞 𝐰𝐢𝐭𝐡 /rename 𝐧𝐞𝐰 𝐧𝐚𝐦𝐞.ext</i>\n
-<i>𝐕𝐢𝐞𝐰 𝐲𝐨𝐮𝐫 𝐭𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐝𝐨 /sthumbnail 𝐜𝐨𝐦𝐦𝐚𝐧𝐝</i>\n
-<i>𝐃𝐞𝐥𝐞𝐭𝐞 𝐲𝐨𝐮𝐫 𝐭𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐝𝐨 /dthumbnail 𝐜𝐨𝐦𝐦𝐚𝐧𝐝</i>"""
+<b> Rᴇɴᴀᴍᴇ </b>
+
+➠ sᴇɴᴅ ᴀ ғɪʟᴇ ᴏʀ ᴍᴇᴅɪᴀ ᴛᴏ ʀᴇᴘʟʏ /rename ғɪʟᴇ ɴᴀᴍᴇ.ᴇxᴛᴇɴsɪᴏɴ
+
+➠ ᴍᴜsᴛ ʀᴇᴘʟʏ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ ᴇxᴛᴇɴsɪᴏɴ.
+
+<b> ᴄᴏɴᴠᴇʀᴛ ᴠɪᴅᴇᴏ </b>
+
+➠ sᴇɴᴅ ғɪʟᴇ ᴛᴏ ʀᴇᴘʟʏ /convert ɪᴛ ᴄᴏɴᴠᴇʀᴛ ᴀ ᴠɪᴅᴇᴏ ғᴏʀᴍᴀᴛ
+
+<b> sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ </b>
+
+➠ sᴇɴᴅ ᴀ ᴘʜᴏᴛᴏ ᴛᴏ ᴍᴀᴋᴇ ɪᴛ ᴀs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
+
+<b> ᴅᴇʟᴇᴛɪɴɢ ᴛʜᴜᴍʙɴᴀɪʟ </b>
+
+➠ sᴇɴᴅ /delthumb ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴜᴍʙɴᴀɪʟ.
+
+<b> sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ </b>
+
+➠ sᴇɴᴅ /showthumb ᴛᴏ ᴠɪᴇᴡ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ.
+"""
 
 
-    ABOUT_TEXT = """
-╭────[🔅Rᴇɴᴀᴍᴇʀ Bᴏᴛ🔅]───⍟
-│
-├<b>🤖 Bot Name : <a href='https://t.me/RafiqCreationz'>Rename X2 Bot</a></b>
-│
-├<b>📢 Channel : <a href='https://t.me/MR_OTT_Tamil'>MROTTTAMIL</a></b>
-│
-├<b>👥 Version : <a href='https://t.me/RafiqCreationz'>0.9.2 beta</a></b>
-│
-├<b>💢 Source : <a href='https://t.me/RafiqCreationz'>Click Here</a></b>
-│
-├<b>🌐 Server : <a href='https://heroku.com'>Heroku</a></b>
-│
-├<b>📕 Library : <a href='https://github.com/pyrogram'>Pyrogram 1.2.8</a></b>
-│
-├<b>㊙ Language: <a href='https://www.python.org'>Python 3.9.4</a></b>
-│
-├<b>👨‍💻 Developer : <a href='https://t.me/RafiqCreationz'>@Rafiq</a></b>
-│
-├<b>🚸 Powered By : <a href='https://t.me/MR_OTT_Tamil'>@MR_OTT_Tamil</a></b>
-│
-╰──────[Thanks 😊]───⍟"""
+    ABOUT_TEXT = """**Mʏ ɴᴀᴍᴇ :** [Rᴇɴᴀᴍᴇ ᴘʀᴏ ʙᴏᴛ](http://t.me/RenamerXProRobot)
+
+**Cʜᴀɴɴᴇʟ :** [ᴅɪsɴᴇʏ ʙᴏᴛꜱ](https://t.me/Disney_Bots)
+
+**Vᴇʀꜱɪᴏɴ :** [1.0 ʙᴇᴛᴀ](http://t.me/RenamerXProRobot)
+
+**Sᴏᴜʀᴄᴇ :** [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/tamilanbots)
+
+**Dᴀᴛᴀʙᴀꜱᴇ :** [Mᴏɴɢᴏᴅʙ](https://www.mongodb.com/)
+
+**Sᴇʀᴠᴇʀ :** [Hᴇʀᴏᴋᴜ](https://heroku.com/)
+
+**Lᴀɴɢᴜᴀɢᴇ :** [Pʏᴛʜᴏɴ 3.9.5](https://www.python.org/)
+
+**Fʀᴀᴍᴇᴡᴏʀᴋ :** [Pʏʀᴏɢʀᴀᴍ 1.4.7](https://docs.pyrogram.org/)
+
+**Dᴇᴠᴇʟᴏᴘᴇʀ :** [𝙼𝚘𝚗𝚎𝚢𝙴𝚊𝚛𝚗𝚅𝙸𝙿](https://t.me/tamilanxbots)
+
+**Pᴏᴡᴇʀᴇᴅ ʙʏ :** [@ᴅɪsɴᴇʏʜᴅʟɪɴᴋs](https://t.me/DisneyHDLinks)
+"""
 
     CUSTOM_CAPTION = "<i>{}</i>"
-    ACCESS_DENIED = "<b>¥ou Are Banned 🚫</b>"
-    BANNED_USER_TEXT = "<i>¥ou are Banned 🚫</i>"
-    TRYING_TO_UPLOAD = "<i>Trying to Upload.....</i>"
-    CURRENT_THUMBNAIL = "<i>𝐘𝐨𝐮𝐫 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 🎭</i>"
-    THUMBNAIL_SAVED = "<i>𝐘𝐨𝐮𝐫 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐒𝐚𝐯𝐞𝐝 ✅</i>"
-    THUMBNAIL_DELETED = "<i>𝐘𝐨𝐮𝐫 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐃𝐞𝐥𝐞𝐭𝐞𝐝 ✅</i>"
-    NO_THUMBNAIL_FOUND = "<i>𝐍𝐨 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐅𝐨𝐮𝐧𝐝 (Konsi Goals Chahiye)😔</i>"
-    TRYING_TO_DOWNLOAD = "<i>Trying to Download....</i>"
-    UPLOAD_SUCCESS = "<u><i>Tʜᴀɴᴋs Fᴏʀ Usɪɴɢ ᴍᴇ❤ Join @MR_OTT_Tamil</i></u>"
-    REPLY_TO_MEDIA = "<i>Reply to Media For Converting with Command /convert</i>"
-    UPLOAD_START = "<i>📤 Uploading Your File Please wait...</i>\n"
-    DOWNLOAD_START = "<i>📥 Downloading Your File Please wait...</i>\n"
-    JOIN_NOW_TEXT = "<code>First Join My Updates Channel to Use Me</code>"
-    REPLY_TO_FILE = "<i>Reply to that media with /rename new name .ext</i>"
-    CONTACT_MY_DEVELOPER = "<i>Something Wrong Contact in Support Group @MR_OTT_Tamil 😑</i>"
-    START_TEXT = "<i>This is a Fastest File Renamer and Converter Bot With Permanant Thumbnail Support💯</i>"
-    UPGRADE_TEXT = "<b>To upgrade your subscription <a href='https://t.me/RafiqCreationz'>[ Click Here]</a></b>"
+    ACCESS_DENIED = "<i><b> sᴏʀʀʏ! ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ </b></i>"
+    BANNED_USER_TEXT = "<i><b> sᴏʀʀʏ! ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ </b></i>"
+    TRYING_TO_UPLOAD = ""
+    CURRENT_THUMBNAIL = "<i> Yᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ"
+    THUMBNAIL_SAVED = "<i> Yᴏᴜʀ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴀᴠᴇᴅ ✓ </i>"
+    THUMBNAIL_DELETED = "<i> ᴛʜᴜᴍɴᴀɪʟ ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ </i>"
+    NO_THUMBNAIL_FOUND = "<i> Nᴏ ᴛʜᴜᴍʙɴᴀɪʟ ꜰᴏᴜɴᴅ 😟 </i>"
+    TRYING_TO_DOWNLOAD = " "
+    UPLOAD_SUCCESS = "<i> ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsᴇ ᴍᴇ /n/nᴊᴏɪɴ - https://t.me/DisneyBots"
+    REPLY_TO_MEDIA = "<i> Rᴇᴘʟʏ ᴛᴏ ᴛʜᴀᴛ ꜰɪʟᴇ ᴡɪᴛʜ /convert ᴄᴏᴍᴍᴀɴᴅ </i>"
+    UPLOAD_START = "<i> 📤 ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ғɪʟᴇ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...</i>\n"
+    DOWNLOAD_START = "<i> 📥 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ғɪʟᴇ ᴘʟᴇᴀᴄᴇ ᴡᴀɪᴛ...</i>\n"
+    JOIN_NOW_TEXT = "<i> 👋 Hello, {} ♡︎
+
+Join my update channel to use me 🔐</i>"
+    REPLY_TO_FILE = "<i> Rᴇᴘʟʏ ᴛᴏ ᴛʜᴀᴛ ꜰɪʟᴇ ᴡɪᴛʜ /rename ɴᴇᴡ ꜰɪʟᴇɴᴀᴍᴇ.ᴇxᴛᴇɴsɪᴏɴ </i>"
+    CONTACT_MY_DEVELOPER = "<i></i>"
+    UPGRADE_TEXT = "</i> <b>ᴛᴏ ᴜᴘɢʀᴀᴅᴇ ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴄᴏɴᴛᴀᴄᴛ <a href='https://t.me/DisneyBots_Support'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b></i>"
