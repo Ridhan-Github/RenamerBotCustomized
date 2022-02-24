@@ -80,9 +80,7 @@ Pᴏᴡᴇʀᴇᴅ ʙʏ : [ᴅɪsɴᴇʏ ʙᴏᴛs](https://t.me/Disney_Bots)"""
     REPLY_TO_MEDIA = "<i> Rᴇᴘʟʏ ᴛᴏ ᴛʜᴀᴛ ꜰɪʟᴇ ᴡɪᴛʜ /convert ᴄᴏᴍᴍᴀɴᴅ </i>"
     UPLOAD_START = "<i> 📤 ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ғɪʟᴇ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...</i>\n"
     DOWNLOAD_START = "<i> 📥 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ғɪʟᴇ ᴘʟᴇᴀᴄᴇ ᴡᴀɪᴛ...</i>\n"
-    JOIN_NOW_TEXT = "<i> 👋 Hello, {} ♡︎
-
-Join my update channel to use me 🔐</i>"
+    JOIN_NOW_TEXT = "<i> 👋 Hello, {} ♡︎ /n/nJoin my update channel to use me 🔐</i>"
     REPLY_TO_FILE = "<i> Rᴇᴘʟʏ ᴛᴏ ᴛʜᴀᴛ ꜰɪʟᴇ ᴡɪᴛʜ /rename ɴᴇᴡ ꜰɪʟᴇɴᴀᴍᴇ.ᴇxᴛᴇɴsɪᴏɴ </i>"
     CONTACT_MY_DEVELOPER = "<i></i>"
     UPGRADE_TEXT = "</i> <b>ᴛᴏ ᴜᴘɢʀᴀᴅᴇ ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴄᴏɴᴛᴀᴄᴛ <a href='https://t.me/DisneyBots_Support'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b></i>"
