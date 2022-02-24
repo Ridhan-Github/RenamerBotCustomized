@@ -2,7 +2,7 @@ class Scripted(object):
 
 
     PROGRESS_DIS = """\n
-╭───[****]───⍟
+╭───[**sᴛᴀᴛᴜs**]───⍟
 │
 ├<b>🗂️ Sɪᴢᴇ : {1} | {2}</b>
 │
